@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.box{
+    width: 700px;
+    height: 600px;
+    margin: 20px auto;
+    position: relative;
+    background: url("img/bj.jpg");
+}
+button:nth-child(1){
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+    background: #FF8801;
+    line-height: 30px;
+    text-align: center;
+    font-family: '宋体';
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: #fff;
+    margin-left: -25px;
+    font-weight: bold;
+}
+button:nth-child(2){
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+    background: #FF8801;
+    line-height: 30px;
+    text-align: center;
+    font-family: '宋体';
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    bottom: 50px;
+    margin-left: -25px;
+    font-weight: bold;
+}
+.pai{
+    width: 90px;
+    height: 130px;
+    position: absolute;
+    left: 300px;
+    top: 0;
+    background-size: 100%!important;
+    opacity: 0;
+    transition: margin .4s;
+}
+ul {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50px;
+}
+.active{
+    border: 1px solid #00a3e4;
+    box-sizing: border-box;
+    margin-top: -20px;
+}
+button:nth-child(3){
+    position: absolute;
+    left: 315px;
+    top: 472px;
+    width: 70px;
+    height: 40px;
+    background: #FFDA28;
+    box-shadow: 0 0 3px #00BC89;
+    text-align: center;
+    line-height: 40px;
+    color: #0A246A;
+    z-index: 100;
+}
