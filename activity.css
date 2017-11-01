@@ -1,0 +1,204 @@
+*, ul, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 16px;
+    list-style: none;
+    outline: none;
+}
+html,
+body {
+    height: 12.1rem;
+
+}
+body{
+    background-image: url("img/bj-wxzc copy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-box{
+    width: 5.5rem;
+    height: auto;
+    position:absolute;
+    left: 1.05rem;
+    top:4.55rem;
+}
+.p-box p{
+    text-indent: 0;
+    color:#445366;
+    font-size: 0.24rem;
+    line-height: 0.37rem;
+    margin-left: 0.3rem;
+}
+.p-box .cricle{
+    width: 0.1rem;
+    height: 0.1rem;
+    background-image: linear-gradient(-90deg, #3AC1FF 0%, #3A8BFF 100%);
+    position: absolute;
+    left: 0.1rem;
+    top: 0.14rem;
+    border-radius: 100%;
+}
+.p-box input#phone{
+     width: 5.4rem;
+     height: 0.8rem;
+     background: #F4F4F4;
+     border-radius: 1rem;
+     margin-top: 0.3rem;
+     color: #A7B0B5;
+     padding-left: 0.35rem;
+     box-sizing: border-box;
+ }
+.p-box input#yzm{
+    width:3.2rem;
+    height: 0.8rem;
+    background: #F4F4F4;
+    border-radius: 1rem;
+    margin-top: 0.16rem;
+    color: #A7B0B5;
+    padding-left: 0.35rem;
+    box-sizing: border-box;
+}
+.p-box input#tyzm{
+    width:3.2rem;
+    height: 0.8rem;
+    background: #F4F4F4;
+    border-radius: 1rem;
+    margin-top: 0.3rem;
+    color: #A7B0B5;
+    padding-left: 0.35rem;
+    box-sizing: border-box;
+}
+.p-box input[type=button]{
+    background-image:url("img/kj22.png");
+    background-size: cover;
+    border-radius: 100px;
+    width: 2rem;
+    height: 0.8rem;
+    font-size: 0.24rem;
+    color: #fff;
+}
+.imgbox{
+    border-radius: 100px;
+    width: 2rem;
+    height: 0.8rem;
+    float: right;
+    margin-top: 0.12rem;
+    margin-right: 0.2rem;
+}
+.imgbox img{
+    width: 100%;
+    height: 90%;
+    border-radius: 100px;
+    margin-top: 0.03rem;
+}
+.p-box input[type=submit]{
+    width: 5.4rem;
+    height: 0.9rem;
+    background-image:url("img/kj11.jpg");
+    background-size: cover;
+    margin-top: 0.41rem;
+    box-shadow: 0 4px 20px 0 rgba(62,169,255,0.43);
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 0.36rem;
+}
+
+.rule-box{
+    position: absolute;
+    top: 0.3rem;
+    left: 0;
+    width: 1.6rem;
+    height: 0.5rem;
+}
+.rule-box span{
+    position: absolute;
+    left: 0.35rem;
+    top:0.08rem;
+    font-size: 0.24rem;
+    color: #8B2B2A;
+}
+.rule-box img{
+    width: 1.6rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.shape{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.60);
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 100;
+    display: none;
+}
+.shape img{
+    width: 6.3rem;
+    height: 8rem;
+    position: absolute;
+    left:0.6rem;
+    top:1.3rem;
+}
+div.xieyi{
+    font-size: 0.22rem;
+    color: #60676E;
+    margin-top: 0.15rem;
+    width: 6.19rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 10.7rem;
+    left:0.7rem
+}
+.xieyi a{
+    font-size: 0.22rem;
+    color: #00bbee;
+}
+img.block{
+    display: inline-block;
+}
+#checkbox{
+    position: absolute;
+}
+
+.shape-box{
+    width: 6.3rem;
+    height: 8rem;
+    position: absolute;
+    left:0.6rem;
+    top:1.3rem;
+}
+.shape-box .top{
+    width: 100%;
+    height: 1.3rem;
+    text-align: center;
+    line-height: 1.3rem;
+    color: #8B572A;
+}
+.shape-box .con {
+     width: 100%;
+     height: 5.7rem;
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    color: #8B572A;
+ }
+.shape-box .bottom{
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1.1rem;
+    color: #fff;
+}
+
+/*活动规则滑动*/
+
+#wrapper {
+    position: relative;
+    height: 5.7rem;
+    overflow: hidden;
+transform: none;
+}

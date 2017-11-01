@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>0元抢iphone X</title>
+    <link rel="stylesheet" href="../BIZ-WF-COMMON/css/wxBase.css">
+    <link rel="stylesheet" href="activity.css">
+    <script src="../BIZ-WF-COMMON/js/jquery.min.js"></script>
+    <script src="../BIZ-WF-COMMON/js/umswxapi.js"></script>
+    <script src="../BIZ-WF-COMMON/js/rem.js"></script>
+    <script src="../BIZ-WF-COMMON/js/iscroll.js"></script>
+    <script src="activity.js"></script>
+    <script type="text/javascript">
+
+        var myScroll;
+
+        function loaded () {
+            myScroll = new IScroll('#wrapper');
+
+        }
+
+    </script>
+</head>
+<body onload="loaded()">
+<div class="shape">
+    <img src="img/tk-da.png" alt="">
+    <div class="shape-box">
+        <div class="top">— 活动规则 —</div>
+        <div class="con">
+        <div id="wrapper">
+            <div id="scroller">
+                一. 活动时间：2017年11月13日-11月22日；开抢时间：11月20日-11月22日，每天10：00-11：00 、16：00-17：00。
+                1.用户在开抢时间内点进入活动页面“马上抢”，即可参与抽奖活动。
+                2.活动期间如有部分奖品显示“剩余数量为0”您可以在下一个开抢时间段刷新活动页面查看更新。
+                3.银联商务APP注册用户可在活动页面进行抽奖活动，本次抽奖并非100%中奖机制，会有[没抢到]出现，请知悉。
+                二、抽奖活动规则
+                1.  活动期间首次进入活动页面即可获得1次抽奖机会。
+                2.  活动期间用户每日首次分享给好友成功后返回银联商务APP，可以增加1次抽奖机会，
+                3.  用户在活动页面每成功邀请1位新用户注册“银联商务”APP，增加1次抽奖机会；
+                4.  抽奖活动一旦发现作弊行为，银联商务APP有权取消你的获奖资格。
+                三、奖品规则
+                1.  活动奖品：
+                [iphone X 64G]，每个抽奖时段送出2台；
+                [10元手机充值券]，每个抽奖时段送出3000张；
+                [5元手机充值券]，每个抽奖时段送出14000张。
+                2   手机充值券使用条件：请在有效期内登录银联商务APP使用，仅可给注册手机号充值，不可叠加使用；可以在“活动详情页-奖品明细”点击立即使用或点击APP“我的-我的优惠券”查看；在“我的-手机充值”进行使用。
+                2. iPhone X国行版产品正式开售后60个工作日内发出，若正规市场渠道无法正常供应该产品，则会提供相同价值奖品，特殊情况另行通知，个人所得税需自理。礼品来源官方授权供应商，暂不提供发票和售后服务，奖品售后问题请自行联络产品厂商咨询。
+                3.  实物中奖名单将于12月15日前在银联商务官方微信公众号中公布。
+                4.  实物中奖后请您在11月23日之前填写收货信息，并确保所填地址为有效邮寄收件地址。如因地址或手机号码错误所产生的一切不利后果，由用户本人承担。逾期不填将视为自愿放弃实物奖励。
+
+                该活动最终解释权归银联商务股份有限公司所有；本活动及奖励与苹果公司无关。
+            </div>
+        </div>
+        </div>
+        <div class="bottom" onclick="hide()">知道啦</div>
+    </div>
+</div>
+
+<div class="p-box">
+    <div class="cricle"></div>
+    <p>10.22—10.24 三天豪礼免费大放送！</p>
+    <p>数量有限，立即注册，抢夺豪礼！</p>
+    <form action="">
+        <input oninput="inputChange()" id="phone" maxlength="11" type="number" name="phone" placeholder="请输入手机号">
+        <input oninput="inputChange()" maxlength="5" id="tyzm" type="text" name="tyzm" placeholder="请输入图形验证码" style="position: relative;top: -0.08rem">
+        <div class="imgbox">
+            <img class="codeImg" src="" alt="">
+        </div>
+        <input oninput="inputChange()" maxlength="6" id="yzm" type="text" name="yzm" placeholder="请输入验证码">
+        <input id="sendCode" type="button" value="获取验证码" onclick="sendCodes()">
+    </form>
+    <input id="submit" type="submit" value="立即注册" onclick="register()">
+</div>
+<div class="rule-box" onclick="show()">
+    <img src="img/hdgz.png" alt="">
+    <span>活动规则</span>
+</div>
+<div class="xieyi">
+    注册即表示同意<a href="https://www.chinaums.com/Info/3695834">用户服务协议</a>、
+    <a href="https://www.chinaums.com/Info/3695656">账户服务协议</a>、
+    <a href="https://www.chinaums.com/Info/3695732 ">客户权益保障承诺书</a>和
+    <a href="https://www.chinaums.com/Info/3695702">隐私政策</a>
+</div>
+</body>
+</html>
